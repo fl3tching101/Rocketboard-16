@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name num_macro_pad-rescue)(type Legacy)(uri ${KIPRJMOD}/num_macro_pad-rescue.lib)(options "")(descr ""))
+)
