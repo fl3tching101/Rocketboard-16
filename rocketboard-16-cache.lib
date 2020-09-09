@@ -1,6 +1,64 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_USB_C_Receptacle_USB2.0
+#
+DEF Connector_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
+F0 "J" -400 750 50 H V L CNN
+F1 "Connector_USB_C_Receptacle_USB2.0" 750 750 50 H V R CNN
+F2 "" 150 0 50 H I C CNN
+F3 "" 150 0 50 H I C CNN
+$FPLIST
+ USB*C*Receptacle*
+$ENDFPLIST
+DRAW
+A -275 -150 75 -1799 -1 0 1 20 N -350 -150 -200 -150
+A -275 -150 25 -1799 -1 0 1 10 N -300 -150 -250 -150
+A -275 -150 25 -1799 -1 0 1 10 F -300 -150 -250 -150
+A -275 150 25 1 1799 0 1 10 F -250 150 -300 150
+A -275 150 25 1 1799 0 1 10 N -250 150 -300 150
+A -275 150 75 1 1799 0 1 20 N -200 150 -350 150
+C -100 45 25 0 1 10 F
+C 0 -230 50 0 1 0 F
+S -10 -700 10 -660 0 0 0 N
+S 400 -590 360 -610 0 0 0 N
+S 400 -490 360 -510 0 0 0 N
+S 400 -190 360 -210 0 0 0 N
+S 400 -90 360 -110 0 0 0 N
+S 400 10 360 -10 0 0 0 N
+S 400 110 360 90 0 0 0 N
+S 400 310 360 290 0 0 0 N
+S 400 410 360 390 0 0 0 N
+S 400 610 360 590 0 0 0 N
+S -400 700 400 -700 0 1 10 f
+S -300 -150 -250 150 0 1 10 F
+S 75 70 125 120 0 1 10 F
+P 2 0 1 20 -350 -150 -350 150 N
+P 2 0 1 20 -200 150 -200 -150 N
+P 2 0 1 20 0 -230 0 170 N
+P 3 0 1 20 0 -130 -100 -30 -100 20 N
+P 3 0 1 20 0 -80 100 20 100 70 N
+P 4 0 1 10 -50 170 0 270 50 170 -50 170 F
+X GND A1 0 -900 200 U 50 50 1 1 W
+X GND A12 0 -900 200 U 50 50 1 1 P N
+X VBUS A4 600 600 200 L 50 50 1 1 W
+X CC1 A5 600 400 200 L 50 50 1 1 B
+X D+ A6 600 -100 200 L 50 50 1 1 B
+X D- A7 600 100 200 L 50 50 1 1 B
+X SBU1 A8 600 -500 200 L 50 50 1 1 B
+X VBUS A9 600 600 200 L 50 50 1 1 P N
+X GND B1 0 -900 200 U 50 50 1 1 P N
+X GND B12 0 -900 200 U 50 50 1 1 P N
+X VBUS B4 600 600 200 L 50 50 1 1 P N
+X CC2 B5 600 300 200 L 50 50 1 1 B
+X D+ B6 600 -200 200 L 50 50 1 1 B
+X D- B7 600 0 200 L 50 50 1 1 B
+X SBU2 B8 600 -600 200 L 50 50 1 1 B
+X VBUS B9 600 600 200 L 50 50 1 1 P N
+X SHIELD S1 -300 -900 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_CP_Small
 #
 DEF Device_CP_Small C 0 10 N N 1 F N
@@ -103,6 +161,21 @@ X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # Power_Protection_USBLC6-2SC6
 #
 DEF Power_Protection_USBLC6-2SC6 U 0 20 Y N 1 F N
@@ -153,6 +226,28 @@ X I/O1 6 -400 100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# josh-keyboard_MX_RGB
+#
+DEF josh-keyboard_MX_RGB SW 0 20 Y Y 1 F N
+F0 "SW" -150 450 50 H V L CNN
+F1 "josh-keyboard_MX_RGB" 0 -100 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+S -150 400 150 -50 0 1 0 N
+P 2 0 1 0 -100 50 100 50 N
+P 2 0 1 0 0 50 0 120 N
+X ~ 1 -250 0 100 R 50 50 0 1 P
+X ~ 2 250 0 100 L 50 50 0 1 P
+X 5V 5 -250 350 100 R 50 50 0 1 W
+X GND 6 250 350 100 L 50 50 0 1 W
+X DI 3 -250 200 100 R 50 50 1 1 I
+X DO 4 250 200 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # keyboard_parts_XTAL_GND
 #
 DEF keyboard_parts_XTAL_GND X 0 40 N N 1 F N
@@ -170,11 +265,37 @@ X ~ 3 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_+5V-power
+# power_GND
 #
-DEF num_macro_pad-rescue_+5V-power #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# rocketboard-16-rescue_+5V-power-num_macro_pad-rescue
+#
+DEF rocketboard-16-rescue_+5V-power-num_macro_pad-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "num_macro_pad-rescue_+5V-power" 0 140 50 H V C CNN
+F1 "rocketboard-16-rescue_+5V-power-num_macro_pad-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -185,11 +306,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_AMS1117-3.3-Regulator_Linear
+# rocketboard-16-rescue_AMS1117-3.3-Regulator_Linear-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_AMS1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF rocketboard-16-rescue_AMS1117-3.3-Regulator_Linear-num_macro_pad-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "num_macro_pad-rescue_AMS1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
+F1 "rocketboard-16-rescue_AMS1117-3.3-Regulator_Linear-num_macro_pad-rescue" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
 F3 "" 100 -250 50 H I C CNN
 $FPLIST
@@ -203,11 +324,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_C_Small-Device
+# rocketboard-16-rescue_C_Small-Device-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF rocketboard-16-rescue_C_Small-Device-num_macro_pad-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "num_macro_pad-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "rocketboard-16-rescue_C_Small-Device-num_macro_pad-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -221,11 +342,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_Conn_01x04-Connector_Generic
+# rocketboard-16-rescue_Conn_01x04-Connector_Generic-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF rocketboard-16-rescue_Conn_01x04-Connector_Generic-num_macro_pad-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "num_macro_pad-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "rocketboard-16-rescue_Conn_01x04-Connector_Generic-num_macro_pad-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -244,11 +365,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_D-Device
+# rocketboard-16-rescue_D-Device-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_D-Device D 0 40 N N 1 F N
+DEF rocketboard-16-rescue_D-Device-num_macro_pad-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "num_macro_pad-rescue_D-Device" 0 -100 50 H V C CNN
+F1 "rocketboard-16-rescue_D-Device-num_macro_pad-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -266,27 +387,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_KEYSW-keyboard_parts
+# rocketboard-16-rescue_MountingHole-Mechanical-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_KEYSW-keyboard_parts K? 0 40 Y Y 1 F N
-F0 "K?" -50 0 60 H V C CNN
-F1 "num_macro_pad-rescue_KEYSW-keyboard_parts" 0 -100 60 H I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C -200 0 50 0 1 0 N
-C 200 0 50 0 1 0 N
-P 2 0 1 10 -200 50 150 150 N
-X ~ 1 300 0 50 L 60 60 1 1 P
-X ~ 2 -300 0 50 R 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# num_macro_pad-rescue_MountingHole-Mechanical
-#
-DEF num_macro_pad-rescue_MountingHole-Mechanical H 0 40 Y Y 1 F N
+DEF rocketboard-16-rescue_MountingHole-Mechanical-num_macro_pad-rescue H 0 40 Y Y 1 F N
 F0 "H" 0 200 50 H V C CNN
-F1 "num_macro_pad-rescue_MountingHole-Mechanical" 0 125 50 H V C CNN
+F1 "rocketboard-16-rescue_MountingHole-Mechanical-num_macro_pad-rescue" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -297,11 +402,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_R-Device
+# rocketboard-16-rescue_R-Device-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_R-Device R 0 0 N Y 1 F N
+DEF rocketboard-16-rescue_R-Device-num_macro_pad-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "num_macro_pad-rescue_R-Device" 0 0 50 V V C CNN
+F1 "rocketboard-16-rescue_R-Device-num_macro_pad-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -314,11 +419,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_STM32F103C8Tx-MCU_ST_STM32F1
+# rocketboard-16-rescue_STM32F103C8Tx-MCU_ST_STM32F1-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_STM32F103C8Tx-MCU_ST_STM32F1 U 0 20 Y Y 1 F N
+DEF rocketboard-16-rescue_STM32F103C8Tx-MCU_ST_STM32F1-num_macro_pad-rescue U 0 20 Y Y 1 F N
 F0 "U" -600 1450 50 H V L CNN
-F1 "num_macro_pad-rescue_STM32F103C8Tx-MCU_ST_STM32F1" 300 1450 50 H V L CNN
+F1 "rocketboard-16-rescue_STM32F103C8Tx-MCU_ST_STM32F1-num_macro_pad-rescue" 300 1450 50 H V L CNN
 F2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" -600 -1400 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -377,11 +482,11 @@ X VDDA 9 200 1500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_SW_Push-Switch
+# rocketboard-16-rescue_SW_Push-Switch-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF rocketboard-16-rescue_SW_Push-Switch-num_macro_pad-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "num_macro_pad-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "rocketboard-16-rescue_SW_Push-Switch-num_macro_pad-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -394,61 +499,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# num_macro_pad-rescue_USB_C_Plug_USB2.0-Connector
+# rocketboard-16-rescue_VCC-power-num_macro_pad-rescue
 #
-DEF num_macro_pad-rescue_USB_C_Plug_USB2.0-Connector P 0 40 Y Y 1 F N
-F0 "P" -400 750 50 H V L CNN
-F1 "num_macro_pad-rescue_USB_C_Plug_USB2.0-Connector" 500 750 50 H V R CNN
-F2 "" 150 0 50 H I C CNN
-F3 "" 150 0 50 H I C CNN
-$FPLIST
- USB*C*Plug*
-$ENDFPLIST
-DRAW
-A -275 -150 75 -1799 -1 0 1 20 N -350 -150 -200 -150
-A -275 -150 25 -1799 -1 0 1 10 N -300 -150 -250 -150
-A -275 -150 25 -1799 -1 0 1 10 F -300 -150 -250 -150
-A -275 150 25 1 1799 0 1 10 F -250 150 -300 150
-A -275 150 25 1 1799 0 1 10 N -250 150 -300 150
-A -275 150 75 1 1799 0 1 20 N -200 150 -350 150
-C -100 45 25 0 1 10 F
-C 0 -230 50 0 1 0 F
-S -10 -700 10 -660 0 0 0 N
-S 400 -90 360 -110 0 0 0 N
-S 400 110 360 90 0 0 0 N
-S 400 310 360 290 0 0 0 N
-S 400 410 360 390 0 0 0 N
-S 400 610 360 590 0 0 0 N
-S -400 700 400 -700 0 1 10 f
-S -300 -150 -250 150 0 1 10 F
-S 75 70 125 120 0 1 10 F
-P 2 0 1 20 -350 -150 -350 150 N
-P 2 0 1 20 -200 150 -200 -150 N
-P 2 0 1 20 0 -230 0 170 N
-P 3 0 1 20 0 -130 -100 -30 -100 20 N
-P 3 0 1 20 0 -80 100 20 100 70 N
-P 4 0 1 10 -50 170 0 270 50 170 -50 170 F
-X GND A1 0 -900 200 U 50 50 1 1 W
-X GND A12 0 -900 200 U 50 50 1 1 P N
-X VBUS A4 600 600 200 L 50 50 1 1 W
-X CC A5 600 400 200 L 50 50 1 1 B
-X D+ A6 600 -100 200 L 50 50 1 1 B
-X D- A7 600 100 200 L 50 50 1 1 B
-X VBUS A9 600 600 200 L 50 50 1 1 P N
-X GND B1 0 -900 200 U 50 50 1 1 P N
-X GND B12 0 -900 200 U 50 50 1 1 P N
-X VBUS B4 600 600 200 L 50 50 1 1 P N
-X VCONN B5 600 300 200 L 50 50 1 1 B
-X VBUS B9 600 600 200 L 50 50 1 1 P N
-X SHIELD S1 -300 -900 200 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# num_macro_pad-rescue_VCC-power
-#
-DEF num_macro_pad-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+DEF rocketboard-16-rescue_VCC-power-num_macro_pad-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "num_macro_pad-rescue_VCC-power" 0 150 50 H V C CNN
+F1 "rocketboard-16-rescue_VCC-power-num_macro_pad-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -456,46 +511,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# num_macro_pad-rescue_WS2812B-LED
-#
-DEF num_macro_pad-rescue_WS2812B-LED D 0 10 Y Y 1 F N
-F0 "D" 200 225 50 H V R BNN
-F1 "num_macro_pad-rescue_WS2812B-LED" 50 -225 50 H V L TNN
-F2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" 50 -300 50 H I L TNN
-F3 "" 100 -375 50 H I L TNN
-$FPLIST
- LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*
-$ENDFPLIST
-DRAW
-T 0 90 -165 30 0 0 0 RGB Normal 0 C C
-S 200 200 -200 -200 0 1 10 f
-P 2 0 1 0 50 -140 70 -140 N
-P 2 0 1 0 50 -100 70 -100 N
-P 2 0 1 0 185 -140 105 -140 N
-P 3 0 1 0 90 -100 50 -140 50 -120 N
-P 3 0 1 0 90 -60 50 -100 50 -80 N
-P 3 0 1 0 145 -40 145 -140 145 -160 N
-P 4 0 1 0 185 -60 105 -60 145 -140 185 -60 N
-X VDD 1 0 300 100 D 50 50 1 1 W
-X DOUT 2 300 0 100 L 50 50 1 1 O
-X VSS 3 0 -300 100 U 50 50 1 1 W
-X DIN 4 -300 0 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

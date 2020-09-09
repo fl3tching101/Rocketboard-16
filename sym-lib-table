@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name num_macro_pad-rescue)(type Legacy)(uri ${KIPRJMOD}/num_macro_pad-rescue.lib)(options "")(descr ""))
+  (lib (name rocketboard-16-rescue)(type Legacy)(uri ${KIPRJMOD}/rocketboard-16-rescue.lib)(options "")(descr ""))
 )
