@@ -523,7 +523,7 @@ F 3 "~" H 7800 950 50  0001 C CNN
 	1    7800 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 4400 0    50   Input ~ 0
+Text GLabel 3150 4100 2    50   Input ~ 0
 ROW0
 Text GLabel 1800 4500 0    50   Input ~ 0
 ROW1
@@ -881,12 +881,10 @@ $EndComp
 NoConn ~ 1850 2800
 NoConn ~ 1850 3200
 NoConn ~ 1850 3300
-NoConn ~ 1850 3500
 NoConn ~ 1850 3600
 NoConn ~ 1850 3700
 NoConn ~ 3150 4700
 NoConn ~ 3150 4200
-NoConn ~ 3150 4100
 NoConn ~ 3150 4000
 NoConn ~ 3150 3700
 Text GLabel 1800 2900 0    50   Input ~ 0
@@ -1078,7 +1076,7 @@ Wire Wire Line
 NoConn ~ 3150 3600
 Text GLabel 5200 5100 0    50   Input ~ 0
 Row4
-Text GLabel 3200 3500 2    50   Input ~ 0
+Text GLabel 1850 3500 0    50   Input ~ 0
 Row4
 Wire Wire Line
 	1350 2300 1450 2300
@@ -1111,8 +1109,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 4300 1800 4300
 Wire Wire Line
-	1800 4400 1850 4400
-Wire Wire Line
 	1850 4500 1800 4500
 Wire Wire Line
 	1800 4600 1850 4600
@@ -1124,8 +1120,6 @@ Wire Wire Line
 	3200 3300 3150 3300
 Wire Wire Line
 	3200 3400 3150 3400
-Wire Wire Line
-	3150 3500 3200 3500
 Wire Wire Line
 	3200 3800 3150 3800
 Wire Wire Line
@@ -2850,4 +2844,40 @@ F 3 "" H 5950 6400 50  0001 C CNN
 	1    6300 6450
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F67F142
+P 6150 5900
+F 0 "#PWR0102" H 6150 5950 20  0001 C CNN
+F 1 "GND" H 6150 5959 30  0000 C CNN
+F 2 "" H 6150 5900 60  0000 C CNN
+F 3 "" H 6150 5900 60  0000 C CNN
+	1    6150 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR0103
+U 1 1 5F69BED7
+P 6250 5900
+F 0 "#PWR0103" H 6250 5750 50  0001 C CNN
+F 1 "VCC" H 6265 6073 50  0000 C CNN
+F 2 "" H 6250 5900 50  0001 C CNN
+F 3 "" H 6250 5900 50  0001 C CNN
+	1    6250 5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 6350 5900 1    50   Input ~ 0
+SCL
+Text GLabel 6450 5900 1    50   Input ~ 0
+SDA
+Wire Wire Line
+	6150 6300 6150 5900
+Wire Wire Line
+	6250 6300 6250 5900
+Wire Wire Line
+	6350 5900 6350 6300
+Wire Wire Line
+	6450 6300 6450 5900
+NoConn ~ 3150 3500
+NoConn ~ 1850 4400
 $EndSCHEMATC
