@@ -556,9 +556,9 @@ Text GLabel 1800 3900 0    50   Input ~ 0
 SDA
 Text GLabel 9700 1150 2    50   Input ~ 0
 EC2_A
-Text GLabel 3200 3800 2    50   Input ~ 0
+Text GLabel 3200 3400 2    50   Input ~ 0
 EC2_A
-Text GLabel 3200 3900 2    50   Input ~ 0
+Text GLabel 3200 3500 2    50   Input ~ 0
 EC2_B
 $Comp
 L power:GND #PWR08
@@ -704,7 +704,7 @@ Connection ~ 2750 5500
 Wire Wire Line
 	2750 5500 2950 5500
 Connection ~ 2750 5700
-Text GLabel 3200 3400 2    50   Input ~ 0
+Text GLabel 3200 3600 2    50   Input ~ 0
 LED_SIG
 Text GLabel 5200 2050 0    50   Input ~ 0
 LED_SIG
@@ -1057,10 +1057,6 @@ Wire Wire Line
 Connection ~ 2850 1150
 Wire Wire Line
 	2850 1150 3100 1150
-Text GLabel 3200 3300 2    50   Input ~ 0
-EC1_B
-Text GLabel 3200 3200 2    50   Input ~ 0
-EC1_A
 Wire Wire Line
 	5400 950  5250 950 
 Wire Wire Line
@@ -1073,7 +1069,6 @@ Wire Wire Line
 	9700 950  9550 950 
 Wire Wire Line
 	9550 1050 9650 1050
-NoConn ~ 3150 3600
 Text GLabel 5200 5100 0    50   Input ~ 0
 Row4
 Text GLabel 1850 3500 0    50   Input ~ 0
@@ -1120,10 +1115,6 @@ Wire Wire Line
 	3200 3300 3150 3300
 Wire Wire Line
 	3200 3400 3150 3400
-Wire Wire Line
-	3200 3800 3150 3800
-Wire Wire Line
-	3150 3900 3200 3900
 Wire Wire Line
 	3200 4300 3150 4300
 Wire Wire Line
@@ -2878,6 +2869,15 @@ Wire Wire Line
 	6350 5900 6350 6300
 Wire Wire Line
 	6450 6300 6450 5900
-NoConn ~ 3150 3500
 NoConn ~ 1850 4400
+Text GLabel 3200 3200 2    50   Input ~ 0
+EC1_A
+Text GLabel 3200 3300 2    50   Input ~ 0
+EC1_B
+Wire Wire Line
+	3200 3500 3150 3500
+Wire Wire Line
+	3150 3600 3200 3600
+NoConn ~ 3150 3900
+NoConn ~ 3150 3800
 $EndSCHEMATC
