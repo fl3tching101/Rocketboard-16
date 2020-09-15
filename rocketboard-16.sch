@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L rocketboard-16-rescue:STM32F103C8Tx-MCU_ST_STM32F1-num_macro_pad-rescue U1
+L MCU_ST_STM32F1:STM32F103C8Tx U1
 U 1 1 5F34AA99
 P 2550 3400
 F 0 "U1" H 2500 1811 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C1
+L Device:C_Small C1
 U 1 1 5F357481
 P 600 1000
 F 0 "C1" H 692 1046 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 600 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C2
+L Device:C_Small C2
 U 1 1 5F357E61
 P 1200 1000
 F 0 "C2" H 1292 1046 50  0000 L CNN
@@ -60,7 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 1200 900  1200
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR01
+L power:VCC #PWR01
 U 1 1 5F36230B
 P 750 7300
 F 0 "#PWR01" H 750 7150 50  0001 C CNN
@@ -87,13 +87,13 @@ U 1 1 5F365F17
 P 1150 6100
 F 0 "P1" H 1257 6967 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 1257 6876 50  0000 C CNN
-F 2 "josh-connectors:USB_C_U262-161N-4BVC11" H 1300 6100 50  0001 C CNN
+F 2 "seth-connectors:USB_C_U262-161N-4BVC11" H 1300 6100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 6100 50  0001 C CNN
 	1    1150 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:AMS1117-3.3-Regulator_Linear-num_macro_pad-rescue U2
+L Regulator_Linear:AMS1117-3.3 U2
 U 1 1 5F375FA8
 P 3500 5500
 F 0 "U2" H 3500 5742 50  0000 C CNN
@@ -104,7 +104,7 @@ F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 3600 5250 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C7
+L Device:C_Small C7
 U 1 1 5F376BD3
 P 1350 7450
 F 0 "C7" H 1442 7496 50  0000 L CNN
@@ -115,7 +115,7 @@ F 3 "~" H 1350 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D17
+L Device:D D17
 U 1 1 5F377C34
 P 2000 5500
 F 0 "D17" H 2000 5283 50  0000 C CNN
@@ -139,7 +139,7 @@ $EndComp
 Wire Wire Line
 	2150 5500 2250 5500
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C4
+L Device:C_Small C4
 U 1 1 5F384B33
 P 2950 5600
 F 0 "C4" H 3042 5646 50  0000 L CNN
@@ -163,7 +163,7 @@ F 3 "" H 3500 5800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR014
+L power:VCC #PWR014
 U 1 1 5F3862CC
 P 4700 5500
 F 0 "#PWR014" H 4700 5350 50  0001 C CNN
@@ -192,7 +192,7 @@ Wire Wire Line
 	1150 7000 1000 7000
 Connection ~ 1000 7000
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R1
+L Device:R R1
 U 1 1 5F3893CD
 P 3500 7000
 F 0 "R1" V 3293 7000 50  0000 C CNN
@@ -203,7 +203,7 @@ F 3 "~" H 3500 7000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R2
+L Device:R R2
 U 1 1 5F38A850
 P 3300 7000
 F 0 "R2" V 3093 7000 50  0000 C CNN
@@ -220,7 +220,7 @@ Wire Wire Line
 Text GLabel 3300 7300 3    50   Input ~ 0
 PA12
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C6
+L Device:C_Small C6
 U 1 1 5F38D927
 P 1050 7450
 F 0 "C6" H 1142 7496 50  0000 L CNN
@@ -231,7 +231,7 @@ F 3 "~" H 1050 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C8
+L Device:C_Small C8
 U 1 1 5F38E146
 P 1650 7450
 F 0 "C8" H 1742 7496 50  0000 L CNN
@@ -242,7 +242,7 @@ F 3 "~" H 1650 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C9
+L Device:C_Small C9
 U 1 1 5F38ED1E
 P 1950 7450
 F 0 "C9" H 2042 7496 50  0000 L CNN
@@ -253,7 +253,7 @@ F 3 "~" H 1950 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C5
+L Device:C_Small C5
 U 1 1 5F38FB64
 P 750 7450
 F 0 "C5" H 842 7496 50  0000 L CNN
@@ -264,7 +264,7 @@ F 3 "~" H 750 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C11
+L Device:C_Small C11
 U 1 1 5F391B19
 P 2250 7450
 F 0 "C11" H 2158 7404 50  0000 R CNN
@@ -305,7 +305,7 @@ Wire Wire Line
 	1650 7550 1950 7550
 Connection ~ 1950 7550
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR010
+L power:+5V #PWR010
 U 1 1 5F3A3D06
 P 2250 5400
 F 0 "#PWR010" H 2250 5250 50  0001 C CNN
@@ -319,7 +319,7 @@ Wire Wire Line
 	2250 5500 2250 5400
 Connection ~ 2250 5500
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR07
+L power:+5V #PWR07
 U 1 1 5F3A588E
 P 2850 7250
 F 0 "#PWR07" H 2850 7100 50  0001 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 2850 7250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R6
+L Device:R R6
 U 1 1 5F3A7375
 P 3050 7250
 F 0 "R6" H 2980 7204 50  0000 R CNN
@@ -352,7 +352,7 @@ PA11
 Text GLabel 3200 4400 2    50   Input ~ 0
 PA12
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R3
+L Device:R R3
 U 1 1 5F3D78FA
 P 1650 1850
 F 0 "R3" H 1580 1804 50  0000 R CNN
@@ -363,7 +363,7 @@ F 3 "~" H 1650 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR06
+L power:VCC #PWR06
 U 1 1 5F3D9CE6
 P 1650 1600
 F 0 "#PWR06" H 1650 1450 50  0001 C CNN
@@ -381,7 +381,7 @@ Connection ~ 1650 2100
 Wire Wire Line
 	1500 2100 1650 2100
 $Comp
-L rocketboard-16-rescue:SW_Push-Switch-num_macro_pad-rescue SW1
+L Switch:SW_Push SW1
 U 1 1 5F3D68B7
 P 1300 2100
 F 0 "SW1" H 1300 2385 50  0000 C CNN
@@ -405,7 +405,7 @@ $EndComp
 Wire Wire Line
 	950  2100 1100 2100
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR011
+L power:VCC #PWR011
 U 1 1 5F3E4559
 P 2550 1750
 F 0 "#PWR011" H 2550 1600 50  0001 C CNN
@@ -480,7 +480,7 @@ COL2
 Text GLabel 8950 5250 3    50   Input ~ 0
 COL3
 $Comp
-L rocketboard-16-rescue:MountingHole-Mechanical-num_macro_pad-rescue H1
+L Mechanical:MountingHole H1
 U 1 1 5F4CF7FC
 P 6900 950
 F 0 "H1" H 7000 996 50  0000 L CNN
@@ -491,7 +491,7 @@ F 3 "~" H 6900 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:MountingHole-Mechanical-num_macro_pad-rescue H2
+L Mechanical:MountingHole H2
 U 1 1 5F4D2306
 P 7200 950
 F 0 "H2" H 7300 996 50  0000 L CNN
@@ -502,7 +502,7 @@ F 3 "~" H 7200 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:MountingHole-Mechanical-num_macro_pad-rescue H3
+L Mechanical:MountingHole H3
 U 1 1 5F4D27D3
 P 7500 950
 F 0 "H3" H 7600 996 50  0000 L CNN
@@ -513,7 +513,7 @@ F 3 "~" H 7500 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:MountingHole-Mechanical-num_macro_pad-rescue H4
+L Mechanical:MountingHole H4
 U 1 1 5F4D2A26
 P 7800 950
 F 0 "H4" H 7900 996 50  0000 L CNN
@@ -572,7 +572,7 @@ F 3 "" H 2400 5750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R4
+L Device:R R4
 U 1 1 5F38D941
 P 2150 5700
 F 0 "R4" V 1943 5700 50  0000 C CNN
@@ -583,7 +583,7 @@ F 3 "~" H 2150 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R5
+L Device:R R5
 U 1 1 5F38E414
 P 2150 5800
 F 0 "R5" V 1943 5800 50  0000 C CNN
@@ -616,7 +616,7 @@ SWDIO
 Text GLabel 6300 7300 1    50   Input ~ 0
 SWCLK
 $Comp
-L rocketboard-16-rescue:Conn_01x04-Connector_Generic-num_macro_pad-rescue J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5F3D89F3
 P 6300 7550
 F 0 "J1" V 6172 7730 50  0000 L CNN
@@ -627,7 +627,7 @@ F 3 "~" H 6300 7550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR018
+L power:VCC #PWR018
 U 1 1 5F3E4190
 P 6100 7300
 F 0 "#PWR018" H 6100 7150 50  0001 C CNN
@@ -640,7 +640,7 @@ $EndComp
 Text Notes 2200 1300 2    50   ~ 0
 Need to calculate these \nwith crystal's datasheet\n
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C14
+L Device:C_Small C14
 U 1 1 5F462817
 P 4300 5600
 F 0 "C14" H 4392 5646 50  0000 L CNN
@@ -709,7 +709,7 @@ LED_SIG
 Text GLabel 5200 2050 0    50   Input ~ 0
 LED_SIG
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R7
+L Device:R R7
 U 1 1 5F524BB0
 P 1500 850
 F 0 "R7" H 1430 804 50  0000 R CNN
@@ -745,7 +745,7 @@ F 3 "https://lcsc.com/product-detail/SMD-Crystal-Resonators_SJK-SHENZHEN-CRYSTAL
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C3
+L Device:C_Small C3
 U 1 1 5F5A7A41
 P 2600 950
 F 0 "C3" H 2692 996 50  0000 L CNN
@@ -756,7 +756,7 @@ F 3 "~" H 2600 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C12
+L Device:C_Small C12
 U 1 1 5F5A825D
 P 3100 950
 F 0 "C12" H 3192 996 50  0000 L CNN
@@ -835,7 +835,7 @@ F 3 "~" H 5250 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR0111
+L power:VCC #PWR0111
 U 1 1 5F65BDBC
 P 4450 6750
 F 0 "#PWR0111" H 4450 6600 50  0001 C CNN
@@ -846,7 +846,7 @@ F 3 "" H 4450 6750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR0112
+L power:VCC #PWR0112
 U 1 1 5F65D1D1
 P 5550 6750
 F 0 "#PWR0112" H 5550 6600 50  0001 C CNN
@@ -892,7 +892,7 @@ OSC32_IN
 Text GLabel 1800 3000 0    50   Input ~ 0
 OSC32_OUT
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R8
+L Device:R R8
 U 1 1 5F728674
 P 1600 2300
 F 0 "R8" H 1530 2254 50  0000 R CNN
@@ -903,7 +903,7 @@ F 3 "~" H 1600 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:R-Device-num_macro_pad-rescue R9
+L Device:R R9
 U 1 1 5F731F37
 P 1600 3400
 F 0 "R9" H 1530 3354 50  0000 R CNN
@@ -914,7 +914,7 @@ F 3 "~" H 1600 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR022
+L power:+5V #PWR022
 U 1 1 5F51FCB6
 P 3800 6400
 F 0 "#PWR022" H 3800 6250 50  0001 C CNN
@@ -976,30 +976,28 @@ U 1 1 5F55C6A2
 P 9250 1050
 F 0 "SW3" V 9296 820 50  0000 R CNN
 F 1 "Rotary 2" V 9205 820 50  0000 R CNN
-F 2 "josh-buttons-switches:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 9100 1210 50  0001 C CNN
+F 2 "seth-buttons:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 9100 1210 50  0001 C CNN
 F 3 "~" H 9250 1310 50  0001 C CNN
 	1    9250 1050
 	-1   0    0    1   
 $EndComp
-Connection ~ 1200 850 
 Connection ~ 600  850 
 Wire Wire Line
 	600  750  600  850 
 Wire Wire Line
 	600  850  600  900 
 $Comp
-L keyboard_parts:XTAL_GND X1
+L Device:Crystal_GND24 X1
 U 1 1 5F3541EA
 P 900 850
 F 0 "X1" H 900 1142 60  0000 C CNN
 F 1 "8 MHz" H 900 1036 60  0000 C CNN
 F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 900 850 60  0001 C CNN
-F 3 "https://lcsc.com/product-detail/SMD-Crystal-Resonators_TAE-Zhejiang-Abel-Elec-SMD-5032-4P8M20pf20ppm_C133333.html" H 900 850 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X50328MSB4SI_C157341.pdf" H 900 850 60  0001 C CNN
+F 4 "X50328MSB4SI" H 900 850 50  0001 C CNN "Part_num"
 	1    900  850 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	900  1050 900  1200
 $Comp
 L power:GND #PWR0117
 U 1 1 5F7552E6
@@ -1032,7 +1030,7 @@ U 1 1 5F53FA0B
 P 5700 1050
 F 0 "SW2" V 5746 820 50  0000 R CNN
 F 1 "Rotary 1" V 5655 820 50  0000 R CNN
-F 2 "josh-buttons-switches:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 5550 1210 50  0001 C CNN
+F 2 "seth-buttons:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_CircularMountingHoles" H 5550 1210 50  0001 C CNN
 F 3 "~" H 5700 1310 50  0001 C CNN
 	1    5700 1050
 	1    0    0    -1  
@@ -1124,7 +1122,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 4600 3200 4600
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D18
+L Device:D D18
 U 1 1 5F850F60
 P 6000 1350
 F 0 "D18" V 6046 1270 50  0000 R CNN
@@ -1139,7 +1137,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 1500 6000 1550
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D19
+L Device:D D19
 U 1 1 5F8B3FE0
 P 8800 1350
 F 0 "D19" V 8846 1270 50  0000 R CNN
@@ -1158,34 +1156,34 @@ Wire Wire Line
 Wire Wire Line
 	5200 2050 5400 2050
 $Comp
-L josh-keyboard:MX_RGB K2
+L seth-keyboard:MX_RGB K2
 U 1 1 5FA93131
 P 6600 2250
 F 0 "K2" H 6600 2825 50  0000 C CNN
 F 1 "MX_RGB" H 6600 2734 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 2450 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 2450 50  0001 C CNN
 F 3 "~" H 6600 2450 50  0001 C CNN
 	1    6600 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K3
+L seth-keyboard:MX_RGB K3
 U 1 1 5FA9BB4E
 P 7550 2250
 F 0 "K3" H 7550 2825 50  0000 C CNN
 F 1 "MX_RGB" H 7550 2734 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 2450 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 2450 50  0001 C CNN
 F 3 "~" H 7550 2450 50  0001 C CNN
 	1    7550 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K4
+L seth-keyboard:MX_RGB K4
 U 1 1 5FA9BB54
 P 8500 2250
 F 0 "K4" H 8500 2825 50  0000 C CNN
 F 1 "MX_RGB" H 8500 2734 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 2450 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 2450 50  0001 C CNN
 F 3 "~" H 8500 2450 50  0001 C CNN
 	1    8500 2250
 	1    0    0    -1  
@@ -1201,12 +1199,12 @@ Wire Wire Line
 Text GLabel 9250 2050 2    50   Input ~ 0
 LED_R1
 $Comp
-L josh-keyboard:MX_RGB K5
+L seth-keyboard:MX_RGB K5
 U 1 1 5FACC5E7
 P 5650 3100
 F 0 "K5" H 5650 3675 50  0000 C CNN
 F 1 "MX_RGB" H 5650 3584 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 3300 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 3300 50  0001 C CNN
 F 3 "~" H 5650 3300 50  0001 C CNN
 	1    5650 3100
 	1    0    0    -1  
@@ -1214,34 +1212,34 @@ $EndComp
 Wire Wire Line
 	5200 2900 5400 2900
 $Comp
-L josh-keyboard:MX_RGB K6
+L seth-keyboard:MX_RGB K6
 U 1 1 5FACC5EE
 P 6600 3100
 F 0 "K6" H 6600 3675 50  0000 C CNN
 F 1 "MX_RGB" H 6600 3584 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 3300 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 3300 50  0001 C CNN
 F 3 "~" H 6600 3300 50  0001 C CNN
 	1    6600 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K7
+L seth-keyboard:MX_RGB K7
 U 1 1 5FACC5F4
 P 7550 3100
 F 0 "K7" H 7550 3675 50  0000 C CNN
 F 1 "MX_RGB" H 7550 3584 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 3300 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 3300 50  0001 C CNN
 F 3 "~" H 7550 3300 50  0001 C CNN
 	1    7550 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K8
+L seth-keyboard:MX_RGB K8
 U 1 1 5FACC5FA
 P 8500 3100
 F 0 "K8" H 8500 3675 50  0000 C CNN
 F 1 "MX_RGB" H 8500 3584 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 3300 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 3300 50  0001 C CNN
 F 3 "~" H 8500 3300 50  0001 C CNN
 	1    8500 3100
 	1    0    0    -1  
@@ -1257,12 +1255,12 @@ Wire Wire Line
 Text GLabel 9250 2900 2    50   Input ~ 0
 LED_R2
 $Comp
-L josh-keyboard:MX_RGB K9
+L seth-keyboard:MX_RGB K9
 U 1 1 5FAD4067
 P 5650 3950
 F 0 "K9" H 5650 4525 50  0000 C CNN
 F 1 "MX_RGB" H 5650 4434 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 4150 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 4150 50  0001 C CNN
 F 3 "~" H 5650 4150 50  0001 C CNN
 	1    5650 3950
 	1    0    0    -1  
@@ -1270,34 +1268,34 @@ $EndComp
 Wire Wire Line
 	5200 3750 5400 3750
 $Comp
-L josh-keyboard:MX_RGB K10
+L seth-keyboard:MX_RGB K10
 U 1 1 5FAD406E
 P 6600 3950
 F 0 "K10" H 6600 4525 50  0000 C CNN
 F 1 "MX_RGB" H 6600 4434 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 4150 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 4150 50  0001 C CNN
 F 3 "~" H 6600 4150 50  0001 C CNN
 	1    6600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K11
+L seth-keyboard:MX_RGB K11
 U 1 1 5FAD4074
 P 7550 3950
 F 0 "K11" H 7550 4525 50  0000 C CNN
 F 1 "MX_RGB" H 7550 4434 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 4150 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 4150 50  0001 C CNN
 F 3 "~" H 7550 4150 50  0001 C CNN
 	1    7550 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K12
+L seth-keyboard:MX_RGB K12
 U 1 1 5FAD407A
 P 8500 3950
 F 0 "K12" H 8500 4525 50  0000 C CNN
 F 1 "MX_RGB" H 8500 4434 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 4150 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 4150 50  0001 C CNN
 F 3 "~" H 8500 4150 50  0001 C CNN
 	1    8500 3950
 	1    0    0    -1  
@@ -1313,12 +1311,12 @@ Wire Wire Line
 Text GLabel 9250 3750 2    50   Input ~ 0
 LED_R3
 $Comp
-L josh-keyboard:MX_RGB K13
+L seth-keyboard:MX_RGB K13
 U 1 1 5FADD5D6
 P 5650 4800
 F 0 "K13" H 5650 5375 50  0000 C CNN
 F 1 "MX_RGB" H 5650 5284 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 5000 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 5000 50  0001 C CNN
 F 3 "~" H 5650 5000 50  0001 C CNN
 	1    5650 4800
 	1    0    0    -1  
@@ -1326,34 +1324,34 @@ $EndComp
 Wire Wire Line
 	5200 4600 5400 4600
 $Comp
-L josh-keyboard:MX_RGB K14
+L seth-keyboard:MX_RGB K14
 U 1 1 5FADD5DD
 P 6600 4800
 F 0 "K14" H 6600 5375 50  0000 C CNN
 F 1 "MX_RGB" H 6600 5284 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 5000 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 6600 5000 50  0001 C CNN
 F 3 "~" H 6600 5000 50  0001 C CNN
 	1    6600 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K15
+L seth-keyboard:MX_RGB K15
 U 1 1 5FADD5E3
 P 7550 4800
 F 0 "K15" H 7550 5375 50  0000 C CNN
 F 1 "MX_RGB" H 7550 5284 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 5000 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 7550 5000 50  0001 C CNN
 F 3 "~" H 7550 5000 50  0001 C CNN
 	1    7550 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L josh-keyboard:MX_RGB K16
+L seth-keyboard:MX_RGB K16
 U 1 1 5FADD5E9
 P 8500 4800
 F 0 "K16" H 8500 5375 50  0000 C CNN
 F 1 "MX_RGB" H 8500 5284 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 5000 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 8500 5000 50  0001 C CNN
 F 3 "~" H 8500 5000 50  0001 C CNN
 	1    8500 4800
 	1    0    0    -1  
@@ -1372,7 +1370,7 @@ Text GLabel 5200 4600 0    50   Input ~ 0
 LED_R3
 NoConn ~ 8750 4600
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D4
+L Device:D D4
 U 1 1 5FB581A7
 P 8150 2400
 F 0 "D4" V 8196 2320 50  0000 R CNN
@@ -1387,7 +1385,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2550 7200 2550
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D3
+L Device:D D3
 U 1 1 5FB74F25
 P 7200 2400
 F 0 "D3" V 7246 2320 50  0000 R CNN
@@ -1398,7 +1396,7 @@ F 3 "~" H 7200 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D2
+L Device:D D2
 U 1 1 5FB7BE24
 P 6250 2400
 F 0 "D2" V 6296 2320 50  0000 R CNN
@@ -1409,7 +1407,7 @@ F 3 "~" H 6250 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D1
+L Device:D D1
 U 1 1 5FB83197
 P 5300 2400
 F 0 "D1" V 5346 2320 50  0000 R CNN
@@ -1429,7 +1427,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2250 5400 2250
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D8
+L Device:D D8
 U 1 1 5FBB5014
 P 8150 3250
 F 0 "D8" V 8196 3170 50  0000 R CNN
@@ -1440,7 +1438,7 @@ F 3 "~" H 8150 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D7
+L Device:D D7
 U 1 1 5FBB501A
 P 7200 3250
 F 0 "D7" V 7246 3170 50  0000 R CNN
@@ -1451,7 +1449,7 @@ F 3 "~" H 7200 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D6
+L Device:D D6
 U 1 1 5FBB5020
 P 6250 3250
 F 0 "D6" V 6296 3170 50  0000 R CNN
@@ -1462,7 +1460,7 @@ F 3 "~" H 6250 3250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D5
+L Device:D D5
 U 1 1 5FBB5026
 P 5300 3250
 F 0 "D5" V 5346 3170 50  0000 R CNN
@@ -1492,7 +1490,7 @@ Connection ~ 7200 3400
 Wire Wire Line
 	7200 3400 6250 3400
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D12
+L Device:D D12
 U 1 1 5FBF00DE
 P 8150 4100
 F 0 "D12" V 8196 4020 50  0000 R CNN
@@ -1503,7 +1501,7 @@ F 3 "~" H 8150 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D11
+L Device:D D11
 U 1 1 5FBF00E4
 P 7200 4100
 F 0 "D11" V 7246 4020 50  0000 R CNN
@@ -1514,7 +1512,7 @@ F 3 "~" H 7200 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D10
+L Device:D D10
 U 1 1 5FBF00EA
 P 6250 4100
 F 0 "D10" V 6296 4020 50  0000 R CNN
@@ -1525,7 +1523,7 @@ F 3 "~" H 6250 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D9
+L Device:D D9
 U 1 1 5FBF00F0
 P 5300 4100
 F 0 "D9" V 5346 4020 50  0000 R CNN
@@ -1555,7 +1553,7 @@ Connection ~ 7200 4250
 Wire Wire Line
 	7200 4250 6250 4250
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D16
+L Device:D D16
 U 1 1 5FC31A32
 P 8150 4950
 F 0 "D16" V 8196 4870 50  0000 R CNN
@@ -1566,7 +1564,7 @@ F 3 "~" H 8150 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D15
+L Device:D D15
 U 1 1 5FC31A38
 P 7200 4950
 F 0 "D15" V 7246 4870 50  0000 R CNN
@@ -1577,7 +1575,7 @@ F 3 "~" H 7200 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D14
+L Device:D D14
 U 1 1 5FC31A3E
 P 6250 4950
 F 0 "D14" V 6296 4870 50  0000 R CNN
@@ -1588,7 +1586,7 @@ F 3 "~" H 6250 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L rocketboard-16-rescue:D-Device-num_macro_pad-rescue D13
+L Device:D D13
 U 1 1 5FC31A44
 P 5300 4950
 F 0 "D13" V 5346 4870 50  0000 R CNN
@@ -1618,12 +1616,12 @@ Connection ~ 7200 5100
 Wire Wire Line
 	7200 5100 6250 5100
 $Comp
-L josh-keyboard:MX_RGB K1
+L seth-keyboard:MX_RGB K1
 U 1 1 5FA7F22E
 P 5650 2250
 F 0 "K1" H 5650 2825 50  0000 C CNN
 F 1 "MX_RGB" H 5650 2734 50  0000 C CNN
-F 2 "josh-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 2450 50  0001 C CNN
+F 2 "seth-keyboard:MX_KEYSWITCH_RGB_2D" H 5650 2450 50  0001 C CNN
 F 3 "~" H 5650 2450 50  0001 C CNN
 	1    5650 2250
 	1    0    0    -1  
@@ -1718,7 +1716,7 @@ Wire Wire Line
 	6000 1550 8800 1550
 Connection ~ 6000 1550
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR04
+L power:+5V #PWR04
 U 1 1 5FDE771D
 P 5350 1800
 F 0 "#PWR04" H 5350 1650 50  0001 C CNN
@@ -1748,7 +1746,7 @@ Connection ~ 5350 1900
 Wire Wire Line
 	5350 1900 5350 2750
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR023
+L power:+5V #PWR023
 U 1 1 5FFB0A1A
 P 6300 1800
 F 0 "#PWR023" H 6300 1650 50  0001 C CNN
@@ -1759,7 +1757,7 @@ F 3 "" H 6300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR025
+L power:+5V #PWR025
 U 1 1 5FFBE3DF
 P 7250 1800
 F 0 "#PWR025" H 7250 1650 50  0001 C CNN
@@ -1770,7 +1768,7 @@ F 3 "" H 7250 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR027
+L power:+5V #PWR027
 U 1 1 5FFCBBA0
 P 8200 1800
 F 0 "#PWR027" H 8200 1650 50  0001 C CNN
@@ -1969,7 +1967,7 @@ U 1 1 603F805A
 P 9600 4450
 F 0 "D20" H 9700 4496 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 4405 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 4450 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 4450 50  0001 C CNN
 F 3 "~" H 9600 4450 50  0001 C CNN
 	1    9600 4450
 	1    0    0    -1  
@@ -1980,7 +1978,7 @@ U 1 1 603F9EC5
 P 9600 4650
 F 0 "D21" H 9700 4696 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 4605 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 4650 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 4650 50  0001 C CNN
 F 3 "~" H 9600 4650 50  0001 C CNN
 	1    9600 4650
 	1    0    0    -1  
@@ -1991,7 +1989,7 @@ U 1 1 6040E43D
 P 9600 4850
 F 0 "D22" H 9700 4896 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 4805 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 4850 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 4850 50  0001 C CNN
 F 3 "~" H 9600 4850 50  0001 C CNN
 	1    9600 4850
 	1    0    0    -1  
@@ -2002,7 +2000,7 @@ U 1 1 6040E443
 P 9600 5050
 F 0 "D23" H 9700 5096 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 5005 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 5050 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 5050 50  0001 C CNN
 F 3 "~" H 9600 5050 50  0001 C CNN
 	1    9600 5050
 	1    0    0    -1  
@@ -2013,7 +2011,7 @@ U 1 1 604233A7
 P 9600 5250
 F 0 "D24" H 9700 5296 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 5205 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 5250 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 5250 50  0001 C CNN
 F 3 "~" H 9600 5250 50  0001 C CNN
 	1    9600 5250
 	1    0    0    -1  
@@ -2024,7 +2022,7 @@ U 1 1 604233AD
 P 9600 5450
 F 0 "D25" H 9700 5496 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 5405 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 5450 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 5450 50  0001 C CNN
 F 3 "~" H 9600 5450 50  0001 C CNN
 	1    9600 5450
 	1    0    0    -1  
@@ -2035,7 +2033,7 @@ U 1 1 604233B3
 P 9600 5650
 F 0 "D26" H 9700 5696 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 5605 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 5650 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 5650 50  0001 C CNN
 F 3 "~" H 9600 5650 50  0001 C CNN
 	1    9600 5650
 	1    0    0    -1  
@@ -2046,7 +2044,7 @@ U 1 1 604233B9
 P 9600 5850
 F 0 "D27" H 9700 5896 50  0000 L CNN
 F 1 "SK6812MINI-E" H 9700 5805 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 9600 5850 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 9600 5850 50  0001 C CNN
 F 3 "~" H 9600 5850 50  0001 C CNN
 	1    9600 5850
 	1    0    0    -1  
@@ -2057,7 +2055,7 @@ U 1 1 6043C14B
 P 10400 4450
 F 0 "D28" H 10500 4496 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 4405 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 4450 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 4450 50  0001 C CNN
 F 3 "~" H 10400 4450 50  0001 C CNN
 	1    10400 4450
 	1    0    0    -1  
@@ -2068,7 +2066,7 @@ U 1 1 6043C151
 P 10400 4650
 F 0 "D29" H 10500 4696 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 4605 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 4650 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 4650 50  0001 C CNN
 F 3 "~" H 10400 4650 50  0001 C CNN
 	1    10400 4650
 	1    0    0    -1  
@@ -2079,7 +2077,7 @@ U 1 1 6043C157
 P 10400 4850
 F 0 "D30" H 10500 4896 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 4805 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 4850 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 4850 50  0001 C CNN
 F 3 "~" H 10400 4850 50  0001 C CNN
 	1    10400 4850
 	1    0    0    -1  
@@ -2090,7 +2088,7 @@ U 1 1 6043C15D
 P 10400 5050
 F 0 "D31" H 10500 5096 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 5005 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 5050 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 5050 50  0001 C CNN
 F 3 "~" H 10400 5050 50  0001 C CNN
 	1    10400 5050
 	1    0    0    -1  
@@ -2101,7 +2099,7 @@ U 1 1 6043C163
 P 10400 5250
 F 0 "D32" H 10500 5296 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 5205 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 5250 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 5250 50  0001 C CNN
 F 3 "~" H 10400 5250 50  0001 C CNN
 	1    10400 5250
 	1    0    0    -1  
@@ -2112,7 +2110,7 @@ U 1 1 6043C169
 P 10400 5450
 F 0 "D33" H 10500 5496 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 5405 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 5450 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 5450 50  0001 C CNN
 F 3 "~" H 10400 5450 50  0001 C CNN
 	1    10400 5450
 	1    0    0    -1  
@@ -2123,7 +2121,7 @@ U 1 1 6043C16F
 P 10400 5650
 F 0 "D34" H 10500 5696 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 5605 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 5650 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 5650 50  0001 C CNN
 F 3 "~" H 10400 5650 50  0001 C CNN
 	1    10400 5650
 	1    0    0    -1  
@@ -2134,7 +2132,7 @@ U 1 1 6043C175
 P 10400 5850
 F 0 "D35" H 10500 5896 50  0000 L CNN
 F 1 "SK6812MINI-E" H 10500 5805 50  0000 L CNN
-F 2 "josh-keyboard:DUMMY_SK6812MINI-E" H 10400 5850 50  0001 C CNN
+F 2 "seth-keyboard:DUMMY_SK6812MINI-E" H 10400 5850 50  0001 C CNN
 F 3 "~" H 10400 5850 50  0001 C CNN
 	1    10400 5850
 	1    0    0    -1  
@@ -2142,7 +2140,7 @@ $EndComp
 Text Notes 10800 4250 2    50   ~ 0
 SK6812 Mini E placeholders \n(LED itself is in the switch)
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR029
+L power:+5V #PWR029
 U 1 1 6046A1B1
 P 9850 1600
 F 0 "#PWR029" H 9850 1450 50  0001 C CNN
@@ -2164,7 +2162,7 @@ F 3 "" H 9850 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C15
+L Device:C_Small C15
 U 1 1 604949C5
 P 9850 1750
 F 0 "C15" H 9942 1796 50  0000 L CNN
@@ -2179,7 +2177,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 1850 9850 1900
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR037
+L power:+5V #PWR037
 U 1 1 604FBF66
 P 10200 1600
 F 0 "#PWR037" H 10200 1450 50  0001 C CNN
@@ -2201,7 +2199,7 @@ F 3 "" H 10200 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C19
+L Device:C_Small C19
 U 1 1 604FBF72
 P 10200 1750
 F 0 "C19" H 10292 1796 50  0000 L CNN
@@ -2216,7 +2214,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 1850 10200 1900
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR045
+L power:+5V #PWR045
 U 1 1 60510E51
 P 10550 1600
 F 0 "#PWR045" H 10550 1450 50  0001 C CNN
@@ -2238,7 +2236,7 @@ F 3 "" H 10550 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C23
+L Device:C_Small C23
 U 1 1 60510E5D
 P 10550 1750
 F 0 "C23" H 10642 1796 50  0000 L CNN
@@ -2253,7 +2251,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 1850 10550 1900
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR053
+L power:+5V #PWR053
 U 1 1 605259EE
 P 10900 1600
 F 0 "#PWR053" H 10900 1450 50  0001 C CNN
@@ -2275,7 +2273,7 @@ F 3 "" H 10900 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C27
+L Device:C_Small C27
 U 1 1 605259FA
 P 10900 1750
 F 0 "C27" H 10992 1796 50  0000 L CNN
@@ -2290,7 +2288,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 1850 10900 1900
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR031
+L power:+5V #PWR031
 U 1 1 60554DBF
 P 9850 2250
 F 0 "#PWR031" H 9850 2100 50  0001 C CNN
@@ -2312,7 +2310,7 @@ F 3 "" H 9850 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C16
+L Device:C_Small C16
 U 1 1 60554DCB
 P 9850 2400
 F 0 "C16" H 9942 2446 50  0000 L CNN
@@ -2327,7 +2325,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2500 9850 2550
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR039
+L power:+5V #PWR039
 U 1 1 60554DD3
 P 10200 2250
 F 0 "#PWR039" H 10200 2100 50  0001 C CNN
@@ -2349,7 +2347,7 @@ F 3 "" H 10200 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C20
+L Device:C_Small C20
 U 1 1 60554DDF
 P 10200 2400
 F 0 "C20" H 10292 2446 50  0000 L CNN
@@ -2364,7 +2362,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 2500 10200 2550
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR047
+L power:+5V #PWR047
 U 1 1 60554DE7
 P 10550 2250
 F 0 "#PWR047" H 10550 2100 50  0001 C CNN
@@ -2386,7 +2384,7 @@ F 3 "" H 10550 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C24
+L Device:C_Small C24
 U 1 1 60554DF3
 P 10550 2400
 F 0 "C24" H 10642 2446 50  0000 L CNN
@@ -2401,7 +2399,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 2500 10550 2550
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR055
+L power:+5V #PWR055
 U 1 1 60554DFB
 P 10900 2250
 F 0 "#PWR055" H 10900 2100 50  0001 C CNN
@@ -2423,7 +2421,7 @@ F 3 "" H 10900 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C28
+L Device:C_Small C28
 U 1 1 60554E07
 P 10900 2400
 F 0 "C28" H 10992 2446 50  0000 L CNN
@@ -2438,7 +2436,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 2500 10900 2550
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR033
+L power:+5V #PWR033
 U 1 1 6056DD11
 P 9850 2900
 F 0 "#PWR033" H 9850 2750 50  0001 C CNN
@@ -2460,7 +2458,7 @@ F 3 "" H 9850 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C17
+L Device:C_Small C17
 U 1 1 6056DD1D
 P 9850 3050
 F 0 "C17" H 9942 3096 50  0000 L CNN
@@ -2475,7 +2473,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 3150 9850 3200
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR041
+L power:+5V #PWR041
 U 1 1 6056DD25
 P 10200 2900
 F 0 "#PWR041" H 10200 2750 50  0001 C CNN
@@ -2497,7 +2495,7 @@ F 3 "" H 10200 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C21
+L Device:C_Small C21
 U 1 1 6056DD31
 P 10200 3050
 F 0 "C21" H 10292 3096 50  0000 L CNN
@@ -2512,7 +2510,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 3150 10200 3200
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR049
+L power:+5V #PWR049
 U 1 1 6056DD39
 P 10550 2900
 F 0 "#PWR049" H 10550 2750 50  0001 C CNN
@@ -2534,7 +2532,7 @@ F 3 "" H 10550 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C25
+L Device:C_Small C25
 U 1 1 6056DD45
 P 10550 3050
 F 0 "C25" H 10642 3096 50  0000 L CNN
@@ -2549,7 +2547,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 3150 10550 3200
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR057
+L power:+5V #PWR057
 U 1 1 6056DD4D
 P 10900 2900
 F 0 "#PWR057" H 10900 2750 50  0001 C CNN
@@ -2571,7 +2569,7 @@ F 3 "" H 10900 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C29
+L Device:C_Small C29
 U 1 1 6056DD59
 P 10900 3050
 F 0 "C29" H 10992 3096 50  0000 L CNN
@@ -2586,7 +2584,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 3150 10900 3200
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR035
+L power:+5V #PWR035
 U 1 1 6058738D
 P 9850 3550
 F 0 "#PWR035" H 9850 3400 50  0001 C CNN
@@ -2608,7 +2606,7 @@ F 3 "" H 9850 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C18
+L Device:C_Small C18
 U 1 1 60587399
 P 9850 3700
 F 0 "C18" H 9942 3746 50  0000 L CNN
@@ -2623,7 +2621,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 3800 9850 3850
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR043
+L power:+5V #PWR043
 U 1 1 605873A1
 P 10200 3550
 F 0 "#PWR043" H 10200 3400 50  0001 C CNN
@@ -2645,7 +2643,7 @@ F 3 "" H 10200 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C22
+L Device:C_Small C22
 U 1 1 605873AD
 P 10200 3700
 F 0 "C22" H 10292 3746 50  0000 L CNN
@@ -2660,7 +2658,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 3800 10200 3850
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR051
+L power:+5V #PWR051
 U 1 1 605873B5
 P 10550 3550
 F 0 "#PWR051" H 10550 3400 50  0001 C CNN
@@ -2682,7 +2680,7 @@ F 3 "" H 10550 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C26
+L Device:C_Small C26
 U 1 1 605873C1
 P 10550 3700
 F 0 "C26" H 10642 3746 50  0000 L CNN
@@ -2697,7 +2695,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 3800 10550 3850
 $Comp
-L rocketboard-16-rescue:+5V-power-num_macro_pad-rescue #PWR059
+L power:+5V #PWR059
 U 1 1 605873C9
 P 10900 3550
 F 0 "#PWR059" H 10900 3400 50  0001 C CNN
@@ -2719,7 +2717,7 @@ F 3 "" H 10900 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C30
+L Device:C_Small C30
 U 1 1 605873D5
 P 10900 3700
 F 0 "C30" H 10992 3746 50  0000 L CNN
@@ -2794,7 +2792,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 5500 1850 5500
 $Comp
-L rocketboard-16-rescue:C_Small-Device-num_macro_pad-rescue C31
+L Device:C_Small C31
 U 1 1 5F723709
 P 1950 1750
 F 0 "C31" H 2042 1796 50  0000 L CNN
@@ -2847,7 +2845,7 @@ F 3 "" H 6150 5900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L rocketboard-16-rescue:VCC-power-num_macro_pad-rescue #PWR0103
+L power:VCC #PWR0103
 U 1 1 5F69BED7
 P 6250 5900
 F 0 "#PWR0103" H 6250 5750 50  0001 C CNN
@@ -2880,4 +2878,20 @@ Wire Wire Line
 	3150 3600 3200 3600
 NoConn ~ 3150 3900
 NoConn ~ 3150 3800
+Wire Wire Line
+	600  850  750  850 
+Wire Wire Line
+	1050 850  1200 850 
+Connection ~ 1200 850 
+Wire Wire Line
+	900  650  700  650 
+Wire Wire Line
+	700  650  700  1100
+Wire Wire Line
+	700  1100 900  1100
+Wire Wire Line
+	900  1050 900  1100
+Wire Wire Line
+	900  1100 900  1200
+Connection ~ 900  1100
 $EndSCHEMATC

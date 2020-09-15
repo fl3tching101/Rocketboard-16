@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name rocketboard-16-rescue)(type Legacy)(uri ${KIPRJMOD}/rocketboard-16-rescue.lib)(options "")(descr ""))
+  (lib (name seth-display)(type Legacy)(uri ${KIPRJMOD}/rkt-lib/seth-display.lib)(options "")(descr ""))
+  (lib (name seth-keyboard)(type Legacy)(uri ${KIPRJMOD}/rkt-lib/seth-keyboard.lib)(options "")(descr ""))
 )

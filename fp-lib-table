@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name seth-keyboard)(type KiCad)(uri ${KIPRJMOD}/rkt-lib/seth-keyboard.pretty)(options "")(descr ""))
+  (lib (name seth-connectors)(type KiCad)(uri ${KIPRJMOD}/rkt-lib/seth-connectors.pretty)(options "")(descr ""))
+  (lib (name seth-buttons)(type KiCad)(uri ${KIPRJMOD}/rkt-lib/seth-buttons.pretty)(options "")(descr ""))
+)
