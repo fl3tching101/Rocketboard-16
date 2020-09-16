@@ -2,4 +2,5 @@
   (lib (name seth-keyboard)(type KiCad)(uri ${KIPRJMOD}/rkt-lib/seth-keyboard.pretty)(options "")(descr ""))
   (lib (name seth-connectors)(type KiCad)(uri ${KIPRJMOD}/rkt-lib/seth-connectors.pretty)(options "")(descr ""))
   (lib (name seth-buttons)(type KiCad)(uri ${KIPRJMOD}/rkt-lib/seth-buttons.pretty)(options "")(descr ""))
+  (lib (name seth-tactile-switch)(type KiCad)(uri ${KIPRJMOD}/rkt-lib/seth-tactile-switch.pretty)(options "")(descr ""))
 )
