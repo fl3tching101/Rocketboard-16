@@ -25,3 +25,4 @@ fp-info-cache
 *.xml
 *.csv
 ~$bom_manual.xlsx
+~$LCSC_Bom.xlsx
