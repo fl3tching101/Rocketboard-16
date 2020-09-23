@@ -88,7 +88,7 @@ P 1150 6100
 F 0 "P1" H 1257 6967 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 1257 6876 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1300 6100 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1300 6100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2009111836_SOFNG-MC-311D_C136423.pdf" H 1300 6100 50  0001 C CNN
 	1    1150 6100
 	1    0    0    -1  
 $EndComp
