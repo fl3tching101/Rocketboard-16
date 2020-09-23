@@ -2943,67 +2943,63 @@ Wire Notes Line
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5FDE416C
-P 9250 1350
-F 0 "H5" H 9350 1396 50  0000 L CNN
-F 1 "Graphic" H 9350 1305 50  0000 L CNN
-F 2 "seth-logo:saturn_v_simplified" H 9250 1350 50  0001 C CNN
-F 3 "~" H 9250 1350 50  0001 C CNN
-	1    9250 1350
+P 9250 1000
+F 0 "H5" H 9350 1046 50  0000 L CNN
+F 1 "Graphic" H 9350 955 50  0000 L CNN
+F 2 "seth-logo:saturn_v_simplified" H 9250 1000 50  0001 C CNN
+F 3 "~" H 9250 1000 50  0001 C CNN
+	1    9250 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 5FF060AE
-P 10000 1350
-F 0 "H7" H 10100 1396 50  0000 L CNN
-F 1 "Graphic" H 10100 1305 50  0000 L CNN
-F 2 "seth-logo:lunar_module" H 10000 1350 50  0001 C CNN
-F 3 "~" H 10000 1350 50  0001 C CNN
-	1    10000 1350
+P 10000 1000
+F 0 "H7" H 10100 1046 50  0000 L CNN
+F 1 "Graphic" H 10100 955 50  0000 L CNN
+F 2 "seth-logo:lunar_module" H 10000 1000 50  0001 C CNN
+F 3 "~" H 10000 1000 50  0001 C CNN
+	1    10000 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 5FF24C73
-P 10750 1350
-F 0 "H9" H 10850 1396 50  0000 L CNN
-F 1 "Graphic" H 10850 1305 50  0000 L CNN
-F 2 "seth-logo:space_shuttle" H 10750 1350 50  0001 C CNN
-F 3 "~" H 10750 1350 50  0001 C CNN
-	1    10750 1350
+P 10750 1000
+F 0 "H9" H 10850 1046 50  0000 L CNN
+F 1 "Graphic" H 10850 955 50  0000 L CNN
+F 2 "seth-logo:space_shuttle" H 10750 1000 50  0001 C CNN
+F 3 "~" H 10750 1000 50  0001 C CNN
+	1    10750 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5FF438B1
-P 9250 1600
-F 0 "H6" V 9204 1700 50  0000 L CNN
-F 1 "Board Info" V 9295 1700 50  0000 L CNN
-F 2 "seth-logo:board-title" H 9250 1600 50  0001 C CNN
-F 3 "~" H 9250 1600 50  0001 C CNN
-	1    9250 1600
+P 9250 1250
+F 0 "H6" V 9204 1350 50  0000 L CNN
+F 1 "Board Info" V 9295 1350 50  0000 L CNN
+F 2 "seth-logo:board-title" H 9250 1250 50  0001 C CNN
+F 3 "~" H 9250 1250 50  0001 C CNN
+	1    9250 1250
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 6001AA81
-P 10000 1600
-F 0 "H8" V 9954 1700 50  0000 L CNN
-F 1 "Board Info" V 10045 1700 50  0000 L CNN
-F 2 "seth-logo:text" H 10000 1600 50  0001 C CNN
-F 3 "~" H 10000 1600 50  0001 C CNN
-	1    10000 1600
+P 10000 1250
+F 0 "H8" V 9954 1350 50  0000 L CNN
+F 1 "Board Info" V 10045 1350 50  0000 L CNN
+F 2 "seth-logo:text" H 10000 1250 50  0001 C CNN
+F 3 "~" H 10000 1250 50  0001 C CNN
+	1    10000 1250
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	9100 1200 9100 1750
+	9100 1700 11150 1700
 Wire Notes Line
-	9100 1750 11150 1750
-Wire Notes Line
-	11150 1750 11150 1200
-Wire Notes Line
-	11150 1200 9100 1200
-Text Notes 9150 1150 0    50   ~ 0
+	11150 850  9100 850 
+Text Notes 9150 800  0    50   ~ 0
 Silkscreen
 Text GLabel 5200 5600 0    50   Input ~ 0
 EC1_A
@@ -3295,4 +3291,41 @@ Text GLabel 3200 3300 2    50   Input ~ 0
 EC1_B_DB
 Text GLabel 3200 3200 2    50   Input ~ 0
 EC1_A_DB
+$Comp
+L Mechanical:MountingHole H11
+U 1 1 5F6BC792
+P 10750 1250
+F 0 "H11" H 10850 1296 50  0000 L CNN
+F 1 "Graphic" H 10850 1205 50  0000 L CNN
+F 2 "seth-logo:spacewalk" H 10750 1250 50  0001 C CNN
+F 3 "~" H 10750 1250 50  0001 C CNN
+	1    10750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 5F77B490
+P 9250 1500
+F 0 "H10" H 9350 1546 50  0000 L CNN
+F 1 "Graphic" H 9350 1455 50  0000 L CNN
+F 2 "seth-logo:iss" H 9250 1500 50  0001 C CNN
+F 3 "~" H 9250 1500 50  0001 C CNN
+	1    9250 1500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11150 850  11150 1700
+Wire Notes Line
+	9100 850  9100 1700
+$Comp
+L Mechanical:MountingHole H12
+U 1 1 5F87CD7E
+P 10000 1500
+F 0 "H12" H 10100 1546 50  0000 L CNN
+F 1 "Graphic" H 10100 1455 50  0000 L CNN
+F 2 "seth-logo:hubble_space_telescope" H 10000 1500 50  0001 C CNN
+F 3 "~" H 10000 1500 50  0001 C CNN
+	1    10000 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
