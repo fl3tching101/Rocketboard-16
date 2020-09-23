@@ -3328,15 +3328,4 @@ F 3 "~" H 10000 1500 50  0001 C CNN
 	1    10000 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H13
-U 1 1 5F881D48
-P 10750 1500
-F 0 "H13" H 10850 1546 50  0000 L CNN
-F 1 "JLC" H 10850 1455 50  0000 L CNN
-F 2 "seth-logo:text" H 10750 1500 50  0001 C CNN
-F 3 "~" H 10750 1500 50  0001 C CNN
-	1    10750 1500
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
