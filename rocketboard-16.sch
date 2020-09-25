@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Rocketboard-16 (RKT-16)"
-Date "2020-09-16"
+Date "2020-09-25"
 Rev "1.1"
 Comp ""
 Comment1 ""
