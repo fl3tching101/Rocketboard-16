@@ -767,9 +767,9 @@ Text GLabel 1350 2300 0    50   Input ~ 0
 BOOT0
 Text GLabel 1350 3400 0    50   Input ~ 0
 BOOT1
-Text GLabel 4350 7200 3    50   Input ~ 0
+Text GLabel 4350 7600 2    50   Input ~ 0
 BOOT0
-Text GLabel 4350 6350 3    50   Input ~ 0
+Text GLabel 4350 6700 2    50   Input ~ 0
 BOOT1
 $Comp
 L Jumper:Jumper_3_Open JP1
@@ -3513,4 +3513,30 @@ F 3 "" H 9000 3600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9000 3500 9000 3600
+$Comp
+L Device:R R21
+U 1 1 60382A16
+P 4350 7350
+F 0 "R21" V 4143 7350 50  0000 C CNN
+F 1 "10k" V 4234 7350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 7350 50  0001 C CNN
+F 3 "~" H 4350 7350 50  0001 C CNN
+	1    4350 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 7600 4350 7500
+$Comp
+L Device:R R20
+U 1 1 603FDBF5
+P 4350 6500
+F 0 "R20" V 4143 6500 50  0000 C CNN
+F 1 "10k" V 4234 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4280 6500 50  0001 C CNN
+F 3 "~" H 4350 6500 50  0001 C CNN
+	1    4350 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6650 4350 6700
 $EndSCHEMATC
