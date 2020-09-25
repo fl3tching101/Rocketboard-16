@@ -14423,7 +14423,7 @@
   (segment (start 143.2475 124.46) (end 143.2375 124.45) (width 0.254) (layer B.Cu) (net 95))
   (segment (start 146.691962 124.46) (end 143.2475 124.46) (width 0.254) (layer B.Cu) (net 95))
 
-  (zone (net 24) (net_name GND) (layer F.Cu) (tstamp 5F6B56B8) (hatch edge 0.508)
+  (zone (net 24) (net_name GND) (layer F.Cu) (tstamp 5F6E902F) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -16028,7 +16028,7 @@
       )
     )
   )
-  (zone (net 24) (net_name GND) (layer B.Cu) (tstamp 5F6B56B5) (hatch edge 0.508)
+  (zone (net 24) (net_name GND) (layer B.Cu) (tstamp 5F6E902C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
